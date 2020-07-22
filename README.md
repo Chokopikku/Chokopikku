@@ -1,16 +1,33 @@
-### Hi there 👋
+```ts
+export class Info {
 
-<!--
-**Chokopikku/Chokopikku** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  name: string = 'Fábio Pereira'
+  age: number = 21
+  nationality: string = 'Portuguese'
+  languages: Record<string, string>[] = [{ 'English': 'C1' }, { 'Portuguese': 'native' }]
+  occupation: string = 'Student'
+  university: string = 'Universidade Lusófona do Porto'
+  freetime: string[] = ['Gaming', 'Algorithms', 'Hanging out / Go on dates', 'Sports / Gym']
 
-Here are some ideas to get you started:
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+export class Programming {
+
+  languages: string[] = ['JavaScript', 'Java', 'C/C++', 'Pascal']
+  stylesheets: string[] = ['CSS', 'Bootstrap']
+  frameworks: string[] = ['React Native']
+  runtimes: string[] = ['V8', 'Node', 'JVM']
+  databases: string[] = ['MySQL']
+  learning: string[] = ['Go', 'Angular']
+  projects: string[] = ['App Museu ISEP']
+
+}
+
+export class Social {
+
+  github: string = 'Chokopikku'
+  instagram: string = '@fabiorafa14'
+  discord: string = 'Fabeks#3903'
+
+}
+```
