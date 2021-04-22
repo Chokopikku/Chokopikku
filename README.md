@@ -2,12 +2,12 @@
 export class Info {
 
   name: string = 'Fábio Pereira'
-  age: number = 21
+  age: number = 22
   nationality: string = 'Portuguese'
   languages: Record<string, string>[] = [{ 'English': 'C1' }, { 'Portuguese': 'native' }]
   occupation: string = 'Student'
   university: string = 'Universidade Lusófona do Porto'
-  freetime: string[] = ['Hanging out / Go on dates', 'Gaming', 'Netflix', 'Sports / Gym', 'Algorithms']
+  freetime: string[] = ['Outside walks', 'Games', 'Netflix', 'Sports / Gym', 'Algorithms']
 
 }
 
@@ -15,10 +15,10 @@ export class Programming {
 
   languages: string[] = ['JavaScript', 'Java', 'C/C++', 'Pascal']
   stylesheets: string[] = ['CSS', 'Bootstrap']
-  frameworks: string[] = ['React Native']
+  frameworks: string[] = ['React Native', 'Vue']
   runtimes: string[] = ['V8', 'Node', 'JVM']
   databases: string[] = ['MySQL']
-  learning: string[] = ['Go', 'Angular']
+  learning: string[] = ['Go', 'JSP']
   projects: string[] = ['App Museu ISEP']
 
 }
