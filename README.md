@@ -2,24 +2,25 @@
 export class Info {
 
   name: string = 'Fábio Pereira'
-  age: number = 22
+  age: number = 25
   nationality: string = 'Portuguese'
   languages: Record<string, string>[] = [{ 'English': 'C1' }, { 'Portuguese': 'native' }]
-  occupation: string = 'Student'
+  occupation: string = 'Junior Dev || Software Engineer'
+  company: string = 'KCS IT'
   university: string = 'Universidade Lusófona do Porto'
-  freetime: string[] = ['Outside walks', 'Games', 'Netflix', 'Sports / Gym', 'Algorithms']
+  freetime: string[] = ['Dog walks', 'Gaming', 'Cars', 'Eight-ball', 'Learning']
 
 }
 
 export class Programming {
 
-  languages: string[] = ['JavaScript', 'Java', 'C/C++', 'Pascal']
+  languages: string[] = ['Golang', 'Java', 'Python', 'JS']
   stylesheets: string[] = ['CSS', 'Bootstrap']
-  frameworks: string[] = ['React Native', 'Vue']
-  runtimes: string[] = ['V8', 'Node', 'JVM']
-  databases: string[] = ['MySQL']
-  learning: string[] = ['Go', 'JSP']
-  projects: string[] = ['App Museu ISEP']
+  frameworks: string[] = ['Gin/Fiber', 'Spring', 'Django', 'React Native']
+  databases: string[] = ['PostgreSQL', 'MongoDB', 'MySQL']
+  cloud: string[] = ['AWS', 'Azure']
+  learning: string[] = ['Terraform']
+  projects: string[] = [] // private
 
 }
 
