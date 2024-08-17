@@ -2,13 +2,13 @@
 export class Info {
 
   name: string = 'Fábio Pereira'
-  age: number = 25
+  age: number = 26
   nationality: string = 'Portuguese'
   languages: Record<string, string>[] = [{ 'English': 'C1' }, { 'Portuguese': 'native' }]
-  occupation: string = 'Junior Dev || Software Engineer'
-  company: string = 'KCS IT'
+  occupation: string = 'Go Dev || Software Engineer'
+  company: string = 'KCS iT'
   university: string = 'Universidade Lusófona do Porto'
-  freetime: string[] = ['Dog walks', 'Gaming', 'Cars', 'Eight-ball', 'Learning']
+  freetime: string[] = ['Nature', 'Futsal', 'Classic Cars', 'Pool (billiard)']
 
 }
 
@@ -16,10 +16,11 @@ export class Programming {
 
   languages: string[] = ['Golang', 'Java', 'Python', 'JS']
   stylesheets: string[] = ['CSS', 'Bootstrap']
-  frameworks: string[] = ['Gin/Fiber', 'Spring', 'Django', 'React Native']
+  frameworks: string[] = ['Gin/Fiber', 'Spring', 'Django', 'React']
   databases: string[] = ['PostgreSQL', 'MongoDB', 'MySQL']
   cloud: string[] = ['AWS', 'Azure']
-  learning: string[] = ['Terraform']
+  infrastructure string[] = ['Terraform', 'Docker']
+  studying: string[] = ['Data Science']
   projects: string[] = [] // private
 
 }
@@ -27,8 +28,7 @@ export class Programming {
 export class Social {
 
   github: string = 'Chokopikku'
-  instagram: string = '@fabiorafa14'
-  discord: string = 'Fabeks#3903'
+  linkedin: string = 'fabio-rafael-pereira'
 
 }
 ```
