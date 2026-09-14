@@ -7,20 +7,20 @@ export class Info {
   languages: Record<string, string>[] = [{ 'English': 'C1' }, { 'Portuguese': 'native' }]
   occupation: string = 'Go Dev || Software Engineer'
   university: string = 'Universidade Lusófona do Porto'
-  freetime: string[] = ['Nature', 'Futsal', 'Classic Cars', 'Pool (billiard)']
+  freetime: string[] = ['Nature', 'Soccer', 'Classic Cars', 'Snooker']
 
 }
 
 export class Programming {
 
-  languages: string[] = ['Golang', 'Java', 'Python', 'JS']
-  stylesheets: string[] = ['CSS', 'Bootstrap']
-  frameworks: string[] = ['Gin/Fiber', 'Spring', 'Django', 'React']
+  languages: string[] = ['Golang', 'Java', 'Python', 'TypeScript']
+  stylesheets: string[] = ['CSS', 'Bootstrap', 'Tailwind']
+  frameworks: string[] = ['Gin/Fiber', 'Spring', 'Django', 'React', 'Next.js']
   databases: string[] = ['PostgreSQL', 'MongoDB', 'MySQL']
-  cloud: string[] = ['AWS', 'Azure']
+  cloud: string[] = ['AWS', 'Azure', 'Google']
   infrastructure string[] = ['Terraform', 'Docker', 'Kubernetes']
   studying: string[] = ['Data Science']
-  projects: string[] = [] // private
+  projects: string[] = ['Meta Radar']
 
 }
 
@@ -31,3 +31,4 @@ export class Social {
 
 }
 ```
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7X1270E8A)
